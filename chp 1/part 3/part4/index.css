@@ -1,0 +1,95 @@
+
+body {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: black;
+    color: white
+
+    /* align-content: center; */
+}
+
+h1 {
+    background-color: rgb(221, 137, 27);
+    color: black
+}
+
+.content-left {
+    float: left;
+    width: 50%;
+    height: 400px;
+    background-color: aquamarine;
+    margin: 0%;  
+    color: black;
+    background-image: url(../assets/happy.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.content-right {
+    margin: 0;
+    float: right;
+    width: 49%;
+    text-align: justify;
+    padding-left: 1%;
+    height: 400px;
+    padding-bottom: 0;
+    background-color: whitesmoke;
+    color: black;
+}
+
+@media only screen and (max-width:800px) {
+    .content-left, .content-right {
+        width: 100%;
+        font-size: 10px;
+        height: 100%;
+    }
+    .left, .right {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .video-content {
+        box-sizing: 300px;
+        width: 300px;
+    }
+}
+
+.form-content {
+    width: 100%;
+    float: left;
+} 
+
+.video-content {
+    float: left;
+    width: 100%;
+    letter-spacing: 100px;
+
+}
+
+footer {
+    float: left;
+    width: 100%;
+}
+
+hr {
+    /* border-color: black */
+}
+
+fieldset {
+    /* border-color: black; */
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+     
+}
+.left {
+    color: red;
+    width: 45%;
+}
+.right {
+    widht: 45%;
+}
